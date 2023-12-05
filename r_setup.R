@@ -13,7 +13,8 @@ r_setup <- function(){
                         "leaps","tseries","urca","writexl",
                         "reshape2","cowplot","ggplotify",
                         "scales","readabs","caTools","zoo",
-                        'rmarkdown','rstudioapi','extrafont',"readrba", "readabs", "fpp3","sf")
+                        'rmarkdown','rstudioapi','extrafont',"readrba", "readabs", "fpp3","sf",
+                        "shinyjs", "shinydashboard")
   new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
   if(length(new.packages)) {install.packages(new.packages)}
   invisible(lapply(list.of.packages, require, character.only = TRUE))
