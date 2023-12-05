@@ -30,3 +30,4 @@ r_setup <- function(){
   
   #windowsFonts(`Segoe UI` = windowsFont('Segoe UI'))
 }
+
